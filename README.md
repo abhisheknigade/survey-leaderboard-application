@@ -1,25 +1,38 @@
 📊 Survey Leaderboard Application
+
+
 🧾 Overview
 The Survey Leaderboard Application is a full-stack web application developed using Spring Boot that enables users to submit survey responses, calculates their scores based on custom logic, and displays a dynamic leaderboard. The system is designed with extensibility and modularity in mind, making it suitable for real-world data collection and evaluation scenarios.
 
+
+
 The project utilizes Spring MVC for request handling, Spring Data JPA with Hibernate for persistence, and Thymeleaf for frontend rendering. It supports both MySQL and H2 databases, making it easy to run in both production and development environments.
+
 
 ✅ Features
 📝 Intuitive survey form for user participation
 
+
 📊 Dynamic leaderboard displaying user scores
+
 
 🔐 Role-based access control (Admin/User) with JWT (Optional for expansion)
 
+
 ⚙️ Flexible database support with MySQL and H2
+
 
 🔗 RESTful API integration for scalability
 
+
 🔄 Seamless data persistence using Spring Data JPA and Hibernate
+
 
 🌐 Fully responsive UI using Thymeleaf
 
+
 🛠️ Easily extensible for additional survey types or scoring logic
+
 
 🛠️ Technologies Used
 Backend: Java 17, Spring Boot, Spring MVC, Spring Data JPA, Hibernate
